@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Исключить из резервного копирования зашифрованные данные -->
+    <exclude domain="sharedpref" path="secure_prefs" />
+    <exclude domain="sharedpref" path="secure_prefs_fallback" />
+</full-backup-content>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RAG Search</string>
+
+    <!-- Авторизация -->
+    <string name="login_title">Вход в систему</string>
+    <string name="login_subtitle">Привет! Это помощник RAG Search</string>
+    <string name="hint_username">Логин</string>
+    <string name="hint_password">Пароль</string>
+    <string name="remember_me">Запомнить меня</string>
+    <string name="btn_login">Войти</string>
+    <string name="checking_connection">Проверка подключения к серверу...</string>
+    <string name="logging_in">Вход в систему...</string>
+
+    <!-- Ошибки -->
+    <string name="error_empty_username">Введите логин</string>
+    <string name="error_empty_password">Введите пароль</string>
+    <string name="error_login_failed">Неверный логин или пароль</string>
+    <string name="error_network">Ошибка сети. Проверьте подключение.</string>
+    <string name="error_server_unavailable">Сервер недоступен</string>
+    <string name="error_rag_not_initialized">RAG система не инициализирована</string>
+    <string name="error_timeout">Превышено время ожидания</string>
+    <string name="error_server_error">Ошибка сервера. Попробуйте позже.</string>
+    <string name="error_unknown">Неизвестная ошибка</string>
+
+    <!-- Навигация -->
+    <string name="nav_search">Поиск</string>
+    <string name="nav_profile">Профиль</string>
+    <string name="nav_history">История</string>
+
+    <!-- Поиск -->
+    <string name="search_hint">Введите ваш запрос...</string>
+    <string name="btn_search">Поиск</string>
+    <string name="searching">Поиск информации...</string>
+    <string name="no_results">Результаты не найдены</string>
+    <string name="answer_title">Ответ:</string>
+    <string name="images_title">Изображения (%d):</string>
+
+    <!-- Профиль -->
+    <string name="profile_title">Профиль</string>
+    <string name="settings_title">Настройки</string>
+    <string name="push_notifications">Push-уведомления</string>
+    <string name="push_notifications_desc">Получать уведомления о готовности ответа</string>
+    <string name="theme_setting">Тема приложения</string>
+    <string name="theme_light">Светлая</string>
+    <string name="theme_dark">Тёмная</string>
+    <string name="theme_system">Системная</string>
+    <string name="about">О приложении</string>
+    <string name="app_version">Версия %s</string>
+    <string name="btn_logout">Выход</string>
+    <string name="logout_confirm">Вы уверены, что хотите выйти?</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+
+    <!-- История -->
+    <string name="history_title">История запросов</string>
+    <string name="history_empty">История пустая</string>
+    <string name="delete_history_item">Удалить запись</string>
+    <string name="clear_all_history">Очистить всю историю</string>
+    <string name="search_history">Поиск в истории...</string>
+
+    <!-- Обычные -->
+    <string name="loading">Загрузка...</string>
+    <string name="retry">Повторить</string>
+    <string name="cancel">Отмена</string>
+    <string name="ok">OK</string>
+    <string name="copy">Копировать</string>
+    <string name="share">Поделиться</string>
+</resources>
